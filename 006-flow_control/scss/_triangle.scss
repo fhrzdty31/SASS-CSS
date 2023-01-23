@@ -1,0 +1,17 @@
+@use './modules/mixin' as m;
+
+.up {
+    @include m.triangle (2em, black, up)
+}
+
+.right {
+    @include m.triangle (2em, black, right)
+
+}
+.down {
+    @include m.triangle (2em, black, down)
+}
+
+.left {
+    @include m.triangle (2em, black, left)
+}

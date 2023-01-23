@@ -1,0 +1,36 @@
+@mixin profile-pic (
+    $size,
+    $circle: false
+) {
+    width: $size;
+    height: $size;
+    border: 5px solid white;
+    box-shadow: 1px 1px 3px rgba($color: #000000, $alpha: 0.3);
+
+    @if $circle {
+        border-radius: 50%;
+    }
+}
+
+@mixin triangle (
+    $size,
+    $color,
+    $direction
+) {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: solid;
+    border-width: calc($size / 2);
+    
+    @if $direction == up {
+        border-bottom-color: $color;
+    } @else if $direction == right {
+        border-left-color: $color;
+    } @else if $direction == down {
+        border-top-color: $color;
+    } @else {
+        border-right-color: $color;
+    }
+}

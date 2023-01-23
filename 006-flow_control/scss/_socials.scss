@@ -1,0 +1,19 @@
+$social-colors: (
+    yt: #ff0000,
+    fb: #3b5998,
+    twr: #1da1f2,
+    int: #ffbf34,
+    twc: #8134af
+);
+
+.socials {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    @each $social, $color in $social-colors {
+        .#{$social} {
+            color: $color;
+        }
+    }
+}

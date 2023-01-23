@@ -1,0 +1,25 @@
+$color-basic: green;
+
+h1 {
+    color: $color-basic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+h1 {
+    // color: adjust-color(
+    //     $color-basic,
+    //     $blue: 80,
+    //     $green: -20
+    // );
+
+    // color: adjust-hue(
+    //     $color-basic,
+    //     $degrees: 30deg
+    // );
+
+    // color: complement($color: $color-basic);
+
+    color: darken($color: $color-basic, $amount: 20%);
+}

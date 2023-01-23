@@ -1,0 +1,127 @@
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle-profile {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.up {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-bottom-color: black;
+}
+
+.right {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-left-color: black;
+}
+
+.down {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-top-color: black;
+}
+
+.left {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-right-color: black;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: lightblue;
+}
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #a1d2e2;
+}
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #96cddf;
+}
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #8ac7db;
+}
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #7ec2d8;
+}
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #72bcd4;
+}
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #67b7d1;
+}
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #5bb1cd;
+}
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #4fabc9;
+}
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #43a6c6;
+}
+
+.socials {
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.socials .yt {
+  color: #ff0000;
+}
+.socials .fb {
+  color: #3b5998;
+}
+.socials .twr {
+  color: #1da1f2;
+}
+.socials .int {
+  color: #ffbf34;
+}
+.socials .twc {
+  color: #8134af;
+}
+
+body {
+  min-height: 1000px;
+}
+
+/*# sourceMappingURL=main.css.map */

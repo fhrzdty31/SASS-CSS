@@ -1,0 +1,9 @@
+@use './modules/mixin' as m;
+
+.square-profile {
+    @include m.profile-pic (200px)
+}
+
+.circle-profile {
+    @include m.profile-pic (200px, true)
+}
